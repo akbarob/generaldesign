@@ -14,7 +14,7 @@ export default function Sidebar() {
   ];
   return (
     <Stack className="d-none d-lg-block w-25 ">
-      <Stack direction="horizontal">
+      <Stack>
         <div className=" mx-auto d-flex align-items-center">
           <Image src="Ellipse 1.svg" alt="" />
           <h1 className="brand mt-2 ms-2">Compute</h1>
