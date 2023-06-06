@@ -20,20 +20,20 @@ export default function Filter() {
           style={{ height: "25px", width: "44px" }}
           className="d-flex align-items-center  justify-content-center bg-white rounded me-2 px-1"
         >
-          <Image src="settings.svg" />
+          <Image src="settings.svg" alt="" />
           <p className="sub-reporting mt-3 ms-1">More</p>
         </div>
         <div
           className="px-2 d-flex align-items-center  justify-content-center rounded mx-2 activeFilter"
           style={{ height: "25px", width: "25px" }}
         >
-          <Image src="gg_board.svg" />
+          <Image src="gg_board.svg" alt="" />
         </div>
         <div
           className=" bg-white d-flex align-items-center  justify-content-center rounded ms-2 "
           style={{ height: "25px", width: "25px" }}
         >
-          <Image src="3lines.svg" className="" />
+          <Image src="3lines.svg" className="" alt="" />
         </div>
       </div>
     </div>

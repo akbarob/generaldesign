@@ -112,7 +112,11 @@ export default function Main() {
               backgroundColor: "#00B0D7",
             }}
           >
-            <Image src="plus.svg" style={{ height: "14px", width: "14px" }} />
+            <Image
+              src="plus.svg"
+              style={{ height: "14px", width: "14px" }}
+              alt=""
+            />
           </div>
         </div>
         <div>
@@ -123,6 +127,7 @@ export default function Main() {
           <Row className=" ">
             {cardItems.map((item, i) => (
               <Cards
+                key={i}
                 title={item.title}
                 duration={item.duration}
                 progress={item.progress}

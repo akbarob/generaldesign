@@ -14,9 +14,9 @@ export default function Sidebar() {
   ];
   return (
     <Stack className="d-none d-lg-block w-25 ">
-      <Stack horizontal>
+      <Stack direction="horizontal">
         <div className=" mx-auto d-flex align-items-center">
-          <Image src="Ellipse 1.svg" />
+          <Image src="Ellipse 1.svg" alt="" />
           <h1 className="brand mt-2 ms-2">Compute</h1>
         </div>
         <div className="mb-5 w-100 ">
@@ -28,7 +28,7 @@ export default function Sidebar() {
                 backgroundColor: item.title === "Reporting" && "#00B0D7",
               }}
             >
-              <Image className="m-3" src={item.icon} />
+              <Image className="m-3" src={item.icon} alt="" />
               <h6 className="links-text mt-2 w-100"> {item.title}</h6>
             </div>
           ))}
@@ -36,7 +36,7 @@ export default function Sidebar() {
       </Stack>
 
       <div className="d-flex px-4 py-3 rounded links mt-5 ">
-        <Image className="me-3" src="logout.svg" />
+        <Image className="me-3" src="logout.svg" alt="" />
         Logout
       </div>
     </Stack>

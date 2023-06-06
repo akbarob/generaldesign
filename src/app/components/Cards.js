@@ -11,7 +11,7 @@ export default function Cards({ title, duration, progress, icon, color }) {
         style={{ width: "38px", height: "38px", backgroundColor: color }}
         className={`badge shadow  rounded-circle d-flex align-items-center  justify-content-center`}
       >
-        <Image src={icon} />
+        <Image src={icon} alt="" />
       </div>
       <Card.Title className="card-title">{title}</Card.Title>
       <Card.Subtitle className="card-subtitle ">
@@ -38,7 +38,7 @@ export default function Cards({ title, duration, progress, icon, color }) {
               "Group 19.svg",
             ].map((item, i) => (
               <div key={i} className="me-1">
-                <Image src={item} className="mx-auto" />
+                <Image src={item} className="mx-auto" alt="" />
               </div>
             ))}
           </div>
